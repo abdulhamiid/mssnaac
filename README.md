@@ -109,13 +109,13 @@ Install this project with:
 
 ### Usage
 
-To run the project, execute the following command to find and fix issues.
+To run the project, execute the following command
 
 ```
   npm start
 ```
 ### Run tests
-To run tests, run the following command to correct
+To run tests, run the following command to find and fix issues.
 
 - [ ] Eslint; 
   Run `npx eslint "**/*.{js,jsx}" --fix` on the root of your directory of your project.
