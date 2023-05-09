@@ -42,8 +42,6 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
 <details>
   <summary>Client</summary>
   <ul>
@@ -125,7 +123,7 @@ To run the project, execute the following command:
 ## 👥 Authors <a name="authors"></a>
 
 
-👤 **Author1 Abdulhamid**
+👤 **Author-1 Abdulhamid**
 
 - GitHub: [abdulhamiid](https://github.com/abdulhamiid)
 - Twitter: [@abdulhamid_adio](https://twitter.com/abdulhamid_adio)
