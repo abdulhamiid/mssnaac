@@ -1,12 +1,11 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="public/logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 </div> 
 
-<h3>MSSN AAC SOCIETY WEBSITE</h3>
+<h3>MSSN AAC WEBSITE</h3>
 
 <!-- TABLE OF CONTENTS -->
 
@@ -35,9 +34,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Building stronger communities of Muslim students] <a name="about-project"></a>
+## 📖 Building stronger communities of Muslim students <a name="about-project"></a>
 
-MSSN Akinyele Area Council is one of the Area Councils under the MSSN Oyo State Area Unit. One of her goals is bring all Muslims in closer union and inculcate the true Islamic spirit of brotherhood and absolute faith in Allah. Her primary assignment is Secondary School Coordination.
+> MSSN Akinyele Area Council is one of the Area Councils under the MSSN Oyo State Area Unit. One of her goals is bring all Muslims in closer union and inculcate the true Islamic spirit of brotherhood and absolute faith in Allah. Her primary assignment is Secondary School Coordination.
 
 ## 🛠 Built With <a name="built-with"></a>
 
