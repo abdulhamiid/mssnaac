@@ -117,11 +117,11 @@ To run the project, execute the following command to find and fix issues.
 ### Run tests
 To run tests, run the following command to correct
 
-- [ ] Eslint
-Run `npx eslint "**/*.{js,jsx}" --fix` on the root of your directory of your project.
+- [ ] Eslint; 
+  Run `npx eslint "**/*.{js,jsx}" --fix` on the root of your directory of your project.
 
-- [ ] Stylint
-Run `npx stylelint "**/*.{css,scss}" --fix`
+- [ ] Stylint; 
+  Run `npx stylelint "**/*.{css,scss}" --fix`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
