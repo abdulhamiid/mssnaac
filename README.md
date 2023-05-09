@@ -103,18 +103,25 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```
-  cd my-project
+  cd mssnaac
   npm install
 ```
 
 ### Usage
 
-To run the project, execute the following command:
+To run the project, execute the following command to find and fix issues.
 
 ```
   npm start
 ```
+### Run tests
+To run tests, run the following command to correct
 
+- [ ] Eslint
+Run `npx eslint "**/*.{js,jsx}" --fix` on the root of your directory of your project.
+
+- [ ] Stylint
+Run `npx stylelint "**/*.{css,scss}" --fix`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
