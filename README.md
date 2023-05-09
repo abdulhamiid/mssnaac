@@ -6,6 +6,8 @@
   <br/>
 </div> 
 
+<h3>MSSN AAC SOCIETY WEBSITE</h3>
+
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -33,11 +35,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Building stronger communities of Muslim students] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[your_project__name]** is a...
+MSSN Akinyele Area Council is one of the Area Councils under the MSSN Oyo State Area Unit. One of her goals is bring all Muslims in closer union and inculcate the true Islamic spirit of brotherhood and absolute faith in Allah. Her primary assignment is Secondary School Coordination.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -70,8 +70,8 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Society Programme]**
-- **[Online Website]**
+- **[Explore our past and current projects including events, initiatives, and collaborations]**
+- **[Learn more about our mission and impact]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
