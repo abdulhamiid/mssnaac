@@ -52,14 +52,14 @@
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="https://expressjs.com/">N/A</a></li>
+    <li><a href="#">N/A</a></li>
   </ul>
 </details>
 
 <details>
 <summary>Database</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">N/A</a></li>
+    <li><a href="#/">N/A</a></li>
   </ul>
 </details>
 
