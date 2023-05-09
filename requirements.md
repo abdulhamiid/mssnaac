@@ -17,25 +17,20 @@
 - Use objects to store and access data.
 - Communicate technical concepts to other technical people.
 
-### Estimated time: N/A
+### Estimated time: 4 months
 
 ## Description
 
-In this capstone project we are planning to to build an*online website for a the society* MUSLIM STUDENT SOCIETY OF NIGERIA, AKINYELE AREA COUNCIL.
+In this capstone project, we are planning to develop a website (MUSLIM STUDENT SOCIETY OF NIGERIA, AKINYELE AREA COUNCIL). We provide some design guidelines for the society on [Figma](https://www.figma.com/file/BKGHpzV5nlIq6YTEaSs7nN/MSSNAAC?node-id=0-1&t=dsbS7vLha6R2zdkA-0).
 
-We provide some design guidelines for you to create the website, instead of a conference you can build a website for a concert or for a web development course. It's very important you personalize your project so that you have something unique in your portfolio to share with potential employers during job searching.
-
-<p align="center">
-  <img src="./images/conference_page.png" alt="Form" />
-</p>
 
 *IMPORTANT NOTE: Please kindly read throug **all** requirements before you start working on the project.*
 
 ### General requirements
 
-- Let's ensure that we fix all Linter errors
+- Let's ensure that we Fix all Linter errors
 - Correct use of GitHub flow
-- Let ensure to document our work in a professional way
+- Document your work in a professional way
 
 ### HTML/CSS & JavaScript requirements
 
