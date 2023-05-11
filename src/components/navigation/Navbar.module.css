@@ -14,9 +14,10 @@ nav {
   box-shadow: 0 2px 4px #ccc;
 }
 
-.nav a {
+a {
   color: #202120;
   text-decoration: none;
+  font-weight: 500;
 }
 
 .nav li {
@@ -32,15 +33,16 @@ nav {
   font: inherit;
   background: #fff;
   color: #007300;
-  border: 1px solid #007300;
-  border-radius: 3px;
-  padding: 0.5rem 2rem;
+  border: 2px solid #bddcbd;
+  border-radius: 5px;
+  padding: 0.5rem 2.5rem;
   cursor: pointer;
   font-weight: 600;
 }
 
 #btn:hover {
   background: #007300;
+  border: 2px solid #007300;
   color: #fff;
 }
 

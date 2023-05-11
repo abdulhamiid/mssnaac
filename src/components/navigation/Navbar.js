@@ -1,6 +1,7 @@
 import React from 'react';
 import {
   Link,
+  NavLink,
 } from 'react-router-dom';
 import styles from './Navbar.module.css';
 
@@ -14,22 +15,25 @@ function Navbar() {
       </header>
       <ul className={styles.nav}>
         <li>
-          <Link to="/about">About</Link>
+          <NavLink className={({ isActive }) => (isActive ? 'active' : undefined)} to="/">Home</NavLink>
         </li>
         <li>
-          <Link to="/society">Society</Link>
+          <NavLink className={({ isActive }) => (isActive ? 'active' : undefined)} to="/about">About</NavLink>
         </li>
         <li>
-          <Link to="/project">Project</Link>
+          <NavLink className={({ isActive }) => (isActive ? 'active' : undefined)} to="/society">Society</NavLink>
         </li>
         <li>
-          <Link to="/donate">Donate</Link>
+          <NavLink className={({ isActive }) => (isActive ? 'active' : undefined)} to="/project">Project</NavLink>
+        </li>
+        <li>
+          <NavLink className={({ isActive }) => (isActive ? 'active' : undefined)} to="/donate">Donate</NavLink>
         </li>
         <li>
           <img src="Vector.png" alt="Language" />
         </li>
         <li>
-          <Link to="/registration" id={styles.btn}>Login</Link>
+          <NavLink id={styles.btn} className={({ isActive }) => (isActive ? 'active' : undefined)} to="/registration">Login</NavLink>
         </li>
       </ul>
     </nav>
