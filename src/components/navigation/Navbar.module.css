@@ -1,0 +1,50 @@
+nav,
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+}
+
+#logo img {
+  width: 120px;
+  height: auto;
+}
+
+.nav {
+  justify-content: flex-end;
+}
+
+nav {
+  box-shadow: 0 2px 4px #ccc;
+}
+
+.nav a {
+  color: #202120;
+  text-decoration: none;
+}
+
+.nav li {
+  padding: 0.5rem 1rem;
+  margin: 0 0.25rem;
+}
+
+.nav li img {
+  width: 20px;
+}
+
+#btn {
+  font: inherit;
+  background: #fff;
+  color: #007300;
+  border: 1px solid #007300;
+  border-radius: 3px;
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+#btn:hover {
+  background: #007300;
+  color: #fff;
+}
