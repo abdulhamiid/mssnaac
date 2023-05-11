@@ -21,13 +21,13 @@ function Navbar() {
           <NavLink className={({ isActive }) => (isActive ? 'active' : undefined)} to="/about">About</NavLink>
         </li>
         <li>
-          <NavLink className={({ isActive }) => (isActive ? 'active' : undefined)} to="/society">Society</NavLink>
-        </li>
-        <li>
-          <NavLink className={({ isActive }) => (isActive ? 'active' : undefined)} to="/project">Project</NavLink>
+          <NavLink className={({ isActive }) => (isActive ? 'active' : undefined)} to="/society">Societies</NavLink>
         </li>
         <li>
           <NavLink className={({ isActive }) => (isActive ? 'active' : undefined)} to="/donate">Donate</NavLink>
+        </li>
+        <li>
+          <NavLink className={({ isActive }) => (isActive ? 'active' : undefined)} to="/project">Project</NavLink>
         </li>
         <li>
           <img src="Vector.png" alt="Language" />
