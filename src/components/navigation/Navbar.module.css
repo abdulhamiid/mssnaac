@@ -6,11 +6,6 @@ nav,
   padding: 0.5rem 1rem;
 }
 
-#logo img {
-  width: 120px;
-  height: auto;
-}
-
 .nav {
   justify-content: flex-end;
 }
@@ -47,4 +42,9 @@ nav {
 #btn:hover {
   background: #007300;
   color: #fff;
+}
+
+#logo img {
+  width: 120px;
+  height: auto;
 }
