@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="public/logo.png" alt="logo" width="140"  height="auto" />
+  <img src="public/MSSN_logo.png" alt="logo" width="100"  height="auto" />
   <br/>
 </div> 
 
