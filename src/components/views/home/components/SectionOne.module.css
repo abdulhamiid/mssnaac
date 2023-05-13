@@ -1,0 +1,76 @@
+section {
+  text-align: center;
+  margin: 5rem 0;
+}
+
+.h1 {
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 75px;
+}
+
+.highlight {
+  color: #007300;
+}
+
+header > p {
+  line-height: 3rem;
+  font-size: 25px;
+}
+
+section button {
+  background-color: #007300;
+  color: #fff;
+  width: 280px;
+  padding: 1rem 4px;
+  border: none;
+  margin: 2rem 0 4rem 0;
+  font-size: 25px;
+}
+
+section button:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.showcase {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.showcase img {
+  width: 100%;
+  height: 327px;
+}
+
+.grey {
+  filter: grayscale(1);
+}
+
+.card {
+  background-color: #007300;
+  color: #fff;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.card div {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  padding: 40px 0;
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+.card div h2 {
+  font-size: 45px;
+}
+
+.card div p {
+  font-size: 18px;
+  line-height: 1.2rem;
+}
