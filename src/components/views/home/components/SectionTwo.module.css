@@ -1,0 +1,44 @@
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  margin-top: 3rem;
+  padding: 0 70px;
+}
+
+.about h2 {
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 45px;
+}
+
+.about p {
+  font-size: 17px;
+  line-height: 2rem;
+}
+
+.about div {
+  flex-basis: 100%;
+}
+
+.about div:first-child {
+  display: flex;
+  flex-direction: column;
+}
+
+.about div img {
+  width: 80%;
+  height: auto;
+}
+
+.button {
+  background-color: #007300;
+  color: #fff;
+  width: 260px;
+  padding: 0.7rem 4px;
+  border: none;
+  margin: 2rem 0 4rem 0;
+  font-size: 20px;
+  text-align: center;
+}
+

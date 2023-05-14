@@ -4,7 +4,7 @@ import styles from './SectionOne.module.css';
 function SectionOne() {
   return (
     <>
-      <section>
+      <section className={styles.sectionOne}>
         <header>
           <h1 className={styles.h1}>
             Building
