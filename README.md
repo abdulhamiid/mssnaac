@@ -118,7 +118,7 @@ To run the project, execute the following command
 To run tests, run the following command to find and fix issues.
 
 - [ ] Eslint; 
-  Run `npx eslint "**/*.{js,jsx}" --fix` on the root of your directory of your project.
+  Run `npx eslint . --fix` on the root of your directory of your project.
 
 - [ ] Stylint; 
   Run `npx stylelint "**/*.{css,scss}" --fix`
