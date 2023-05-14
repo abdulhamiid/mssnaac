@@ -3,6 +3,7 @@ import Navbar from '../../navigation/Navbar';
 import SectionOne from './components/SectionOne';
 import styles from './Home.module.css';
 import SectionTwo from './components/SectionTwo';
+import SectionFour from './components/SectionFour';
 
 function Home() {
   return (
@@ -10,6 +11,7 @@ function Home() {
       <Navbar />
       <SectionOne />
       <SectionTwo />
+      <SectionFour />
     </main>
   );
 }

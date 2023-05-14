@@ -30,25 +30,22 @@ function SectionOne() {
             <div>
               <h2>10+</h2>
               <p>
-                Active
-                <br />
-                Societies
+                <span>Active</span>
+                <span>Societies</span>
               </p>
             </div>
             <div>
               <h2>100+</h2>
               <p>
-                Vibrant
-                <br />
-                Members
+                <span>Vibrant</span>
+                <span>Members</span>
               </p>
             </div>
             <div>
               <h2>500+</h2>
               <p>
-                Tutored
-                <br />
-                Students
+                <span>Tutored</span>
+                <span>Students</span>
               </p>
             </div>
           </div>
