@@ -1,0 +1,53 @@
+.press {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+.press > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 3rem 0;
+  width: 25%;
+}
+
+.press div a {
+  background-color: #007300;
+  width: 260px;
+  padding: 0.7rem 4px;
+  border: none;
+  margin: 2rem 0 4rem 0;
+  font-size: 20px;
+  text-align: center;
+}
+
+.press > div p {
+  font-size: 16px;
+}
+
+h2 {
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 45px;
+}
+
+a span {
+  position: relative;
+  color: #fff;
+}
+
+a span::after {
+  content: "";
+  height: 1px;
+  width: 88px;
+  border-radius: 2px;
+  background: #fff;
+  transition: width 1s 5ms;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}

@@ -1,9 +1,10 @@
 import React from 'react';
 import Navbar from '../../navigation/Navbar';
-import SectionOne from './components/SectionOne';
+import SectionOne from './sections/One/SectionOne';
+import SectionTwo from './sections/Two/SectionTwo';
+import SectionFour from './sections/Four/SectionFour';
+import SectionFive from './sections/Five/SectionFive';
 import styles from './Home.module.css';
-import SectionTwo from './components/SectionTwo';
-import SectionFour from './components/SectionFour';
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
       <SectionOne />
       <SectionTwo />
       <SectionFour />
+      <SectionFive />
     </main>
   );
 }

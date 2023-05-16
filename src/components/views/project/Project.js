@@ -5,7 +5,7 @@ function Project() {
   return (
     <>
       <Navbar />
-      <div>Project</div>
+          <div>Project</div>
     </>
   );
 }
