@@ -68,7 +68,7 @@ function About() {
   return (
     <>
       <Navbar />
-      <div className="bg-brand-green flex justify-between items-center gap-20 pl-[50px] py-12">
+      <div className="bg-brand-green flex justify-between items-center gap-32 pl-[50px] py-12">
         <div className=" flex-1">
           <Title
             title="MSSN Vision"
@@ -104,7 +104,7 @@ function About() {
       </div>
 
       <div className="bg-brand-green pt-8 pb-[73px] px-[104px]">
-        <p className="font-bold text-[50px] text-center leading-[65px] pb-[50px] font">
+        <p className="font-bold text-[35px] text-center leading-[65px] pb-[50px] font">
           MSSNAAC Executive Committee 2021/2022
         </p>
 
@@ -119,10 +119,10 @@ function About() {
 
               <div className="bg-white py-[21px] px-[17px] shadow-lg rounded-md flex justify-between items-start">
                 <div>
-                  <p className="text-xl font-bold text-brand-black pb-3">
+                  <p className="text-lg font-bold text-brand-black pb-3">
                     {detail.name}
                   </p>
-                  <p className="text-lg font-medium text-brand-black">
+                  <p className="text-sm font-medium text-brand-black">
                     {detail.post}
                   </p>
                 </div>
@@ -134,7 +134,7 @@ function About() {
           ))}
         </div>
 
-        <div className="text-2xl font-bold mt-[30px] flex justify-end gap-6">
+        <div className="text-xl font-bold mt-[30px] flex justify-end gap-6">
           <button
             className="px-14 py-3 font border-2 border-brand-black rounded text-brand-black hover:bg-brand-black hover:text-white"
             type="button"
