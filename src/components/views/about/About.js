@@ -119,10 +119,10 @@ function About() {
 
               <div className="bg-white py-[21px] px-[17px] shadow-lg rounded-md flex justify-between items-start">
                 <div>
-                  <p className="text-2xl font-bold text-brand-black pb-3">
+                  <p className="text-xl font-bold text-brand-black pb-3">
                     {detail.name}
                   </p>
-                  <p className="text-[22px] font-medium text-brand-black">
+                  <p className="text-lg font-medium text-brand-black">
                     {detail.post}
                   </p>
                 </div>
