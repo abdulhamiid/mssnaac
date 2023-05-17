@@ -1,68 +1,7 @@
 import React from 'react';
 import Navbar from '../../navigation/Navbar';
 import Title from './Title';
-import {
-  AmirIcon,
-  AmeerahIcon,
-  NaiAmeerIcon,
-  NDAmeerIcon,
-  NaiAmeerahIcon,
-  FinSecIcon,
-  GenSecIcon,
-  EDChiefIcon,
-  MailIcon,
-} from '../../../ui/svg';
-
-const CommitteeDetails = [
-  {
-    background: 'bg-[#D9CDBE]',
-    name: 'Umar Zayad',
-    post: 'Ameer',
-    icon: <AmirIcon />,
-  },
-  {
-    background: 'bg-[#CDCFAF]',
-    name: 'Umar Zayad',
-    post: 'Ameerah',
-    icon: <AmeerahIcon />,
-  },
-  {
-    background: 'bg-[#F5E5D9]',
-    name: 'Umar Zayad',
-    post: 'Naibul Ameer(Admin)',
-    icon: <NaiAmeerIcon />,
-  },
-  {
-    background: 'bg-[#E6F4E6]',
-    name: 'Umar Zayad',
-    post: 'Naibul Ameer(Da’wah)',
-    icon: <NDAmeerIcon />,
-  },
-  {
-    background: 'bg-[#F1E2C8]',
-    name: 'Umar Zayad',
-    post: 'Naibul Ameerah',
-    icon: <NaiAmeerahIcon />,
-  },
-  {
-    background: 'bg-[#F6D9D9]',
-    name: 'Umar Zayad',
-    post: 'Financial Secretary',
-    icon: <FinSecIcon />,
-  },
-  {
-    background: 'bg-[#CDCFAF]',
-    name: 'Umar Zayad',
-    post: 'General Secretary',
-    icon: <GenSecIcon />,
-  },
-  {
-    background: 'bg-[#D9CDBE]',
-    name: 'Umar Zayad',
-    post: 'Editor-in-Chief',
-    icon: <EDChiefIcon />,
-  },
-];
+import Page from '../../../utils/page';
 
 function About() {
   return (
@@ -108,46 +47,7 @@ function About() {
           MSSNAAC Executive Committee 2021/2022
         </p>
 
-        <div className="grid grid-cols-4 gap-8">
-          {CommitteeDetails.map((detail) => (
-            <div key={detail.post}>
-              <div
-                className={`flex justify-end items-center flex-col ${detail.background} h-[250px]`}
-              >
-                {detail.icon}
-              </div>
-
-              <div className="bg-white py-[21px] px-[17px] shadow-lg rounded-md flex justify-between items-start">
-                <div>
-                  <p className="text-lg font-bold text-brand-black pb-3">
-                    {detail.name}
-                  </p>
-                  <p className="text-sm font-medium text-brand-black">
-                    {detail.post}
-                  </p>
-                </div>
-                <div className="cursor-pointer">
-                  <MailIcon />
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-
-        <div className="text-xl font-bold mt-[30px] flex justify-end gap-6">
-          <button
-            className="px-14 py-3 font border-2 border-brand-black rounded text-brand-black hover:bg-brand-black hover:text-white"
-            type="button"
-          >
-            Prev
-          </button>
-          <button
-            type="button"
-            className="px-14 font py-3 border-2 border-dark-green bg-dark-green text-white rounded hover:bg-transparent hover:text-dark-green"
-          >
-            Next
-          </button>
-        </div>
+        <Page itemsPerPage={8} />
       </div>
 
       <div className="flex justify-center items-center gap-44 pl-[50px] py-[105px]">
