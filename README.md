@@ -76,7 +76,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- Not available
+- View live demo [here](https://mssnaac.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -118,7 +118,7 @@ To run the project, execute the following command
 To run tests, run the following command to find and fix issues.
 
 - [ ] Eslint; 
-  Run `npx eslint . --fix` on the root of your directory of your project.
+  Run `npx eslint "**/*.{js,jsx}"` on the root of your directory of your project.
 
 - [ ] Stylint; 
   Run `npx stylelint "**/*.{css,scss}" --fix`
@@ -135,6 +135,10 @@ To run tests, run the following command to find and fix issues.
 - GitHub: [abdulhamiid](https://github.com/abdulhamiid)
 - Twitter: [@abdulhamid_adio](https://twitter.com/abdulhamid_adio)
 - LinkedIn: [Adio Abdulhamid](https://linkedin.com/in/abdulhamid-adio)
+
+👤 **Author-2 Solace**
+
+- GitHub: [Solace4415](https://github.com/Solace4415)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
