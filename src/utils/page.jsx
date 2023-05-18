@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { CommitteeDetailss } from '.';
-import { MailIcon } from '../ui/svg';
 import ReactPaginate from 'react-paginate';
+import CommitteeDetailss from './index';
+import { MailIcon } from '../ui/svg';
 
 function Items({ currentItems }) {
   return (
@@ -33,7 +33,7 @@ function Items({ currentItems }) {
   );
 }
 
-const page = ({ itemsPerPage }) => {
+const Page = ({ itemsPerPage }) => {
   const [currentItems, setCurrentItems] = useState([]);
   const [pageCount, setPageCount] = useState(0);
   const [itemOffset, setItemOffset] = useState(0);
@@ -47,8 +47,7 @@ const page = ({ itemsPerPage }) => {
 
   // Invoke when user click to request another page.
   const handlePageClick = (event) => {
-    const newOffset =
-      (event.selected * itemsPerPage) % CommitteeDetailss.length;
+    const newOffset = (event.selected * itemsPerPage) % CommitteeDetailss.length;
     setItemOffset(newOffset);
   };
 
@@ -75,4 +74,4 @@ const page = ({ itemsPerPage }) => {
   );
 };
 
-export default page;
+export default Page;

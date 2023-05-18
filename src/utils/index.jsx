@@ -19,7 +19,7 @@ import {
   SocWel,
 } from '../ui/svg';
 
-export const CommitteeDetailss = [
+const CommitteeDetailss = [
   {
     background: 'bg-[#D9CDBE]',
     name: 'Umar Zayad',
@@ -202,3 +202,5 @@ export const CommitteeDetailss = [
     icon: <ExOfficio />,
   },
 ];
+
+export default CommitteeDetailss;
