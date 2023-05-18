@@ -136,6 +136,10 @@ To run tests, run the following command to find and fix issues.
 - Twitter: [@abdulhamid_adio](https://twitter.com/abdulhamid_adio)
 - LinkedIn: [Adio Abdulhamid](https://linkedin.com/in/abdulhamid-adio)
 
+👤 **Author-2 **
+
+- GitHub: [Solace4415](https://github.com/Solace4415)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
