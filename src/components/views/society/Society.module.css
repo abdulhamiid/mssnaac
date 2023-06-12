@@ -1,0 +1,76 @@
+.header {
+  text-align: center;
+  margin-top: 35px;
+}
+
+.header p {
+  margin-top: 15px;
+}
+
+.cards {
+  display: flex;
+  margin-top: 60px;
+  justify-content: space-around;
+}
+
+.card {
+  width: 317px;
+  text-align: center;
+  border: 0.5px solid #202120;
+  height: 350px;
+}
+
+.card img {
+  width: 172px;
+  height: 172px;
+  margin-top: 40px;
+}
+
+.card p {
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  margin: 25px 60px 19px 60px;
+  color: #202120;
+}
+
+.card a {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  text-decoration-line: underline;
+  color: #007300;
+}
+
+.btn {
+  float: right;
+  margin-right: 50px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.prev {
+  border: 0.5px solid #202120;
+  font-family: 'Chakra Petch';
+  font-size: 20px;
+  padding: 12px 40px;
+  width: 199px;
+  border-radius: 3px;
+  height: 55px;
+  margin-right: 10px;
+  color: #202120;
+}
+
+.next {
+  border: 0.5px solid #202120;
+  font-family: 'Chakra Petch';
+  padding: 12px 40px;
+  font-size: 20px;
+  width: 199px;
+  height: 55px;
+  background: #007300;
+  border-radius: 3px;
+}
